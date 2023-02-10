@@ -4,10 +4,7 @@ body {
   padding: 0 20px 30px 0;
   line-height: 1.4;
   background-color:  #151719;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
   overflow-x:scroll;
 }
 .flex-container{
@@ -50,7 +47,19 @@ box-sizing: border-box;
 position: relative;
 -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
 font-size: 60px;
+  
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+  
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+padding: 0 20px 30px 0;
+line-height: 1.4;
+  
 }
+
 .waviy span {
 font-family: 'Alfa Slab One', cursive;
 position: relative;
