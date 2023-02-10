@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow-x:scroll;
 }
 .flex-container{
   margin-top: 20px;
