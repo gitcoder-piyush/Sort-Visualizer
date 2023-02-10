@@ -1,7 +1,7 @@
 # Sort-Visualizer
 Visualization makes everything easy. This project helps you understand complex sorting algorithms much more easily.
 
-["CLICK HERE"]("https://gitcoder-piyush.github.io/Sort-Visualizer/")
+CLICK HERE TO CONTINUE -> https://gitcoder-piyush.github.io/Sort-Visualizer/
 
 Features:
 
