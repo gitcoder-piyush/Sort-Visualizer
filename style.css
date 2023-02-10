@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0 20px 30px 0;
+  line-height: 1.4;
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.flex-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  transition: 2s all ease;
+}
+
+.flex-item{
+  background: cyan;
+  border: 1pt solid black;
+  width: 10px;
+  transition: 0.1s all ease;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+.waviy {
+position: relative;
+-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+font-size: 60px;
+}
+.waviy span {
+font-family: 'Alfa Slab One', cursive;
+position: relative;
+display: inline-block;
+color: #fff;
+text-transform: uppercase;
+animation: waviy 1s infinite;
+animation-delay: calc(.1s * var(--i));
+
+
+}
+@keyframes waviy {
+0%,40%,100% {
+  transform: translateY(0)
+}
+20% {
+  transform: translateY(-20px)
+}
+}
+
+a{
+  color: inherit;
+}
+
+
