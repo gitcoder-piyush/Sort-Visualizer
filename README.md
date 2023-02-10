@@ -9,7 +9,7 @@ Algorithm selection
 
 Adjustable speed and size
 
-#License
+# License
 
 BSD 3-Clause License
 
